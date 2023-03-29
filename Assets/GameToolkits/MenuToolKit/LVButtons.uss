@@ -1,0 +1,19 @@
+.lvButton {
+    width: 200px;
+    height: 200px;
+    color: rgba(0, 0, 0, 255);
+    background-image: url('project://database/Assets/Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Buttons_1.png?fileID=5498831262044042175&guid=9291b39306d4ce640bf255c16c6ddf5b&type=3#Steampunk_UI_Buttons_1_2');
+    -unity-slice-left: 1;
+    -unity-slice-top: 1;
+    -unity-slice-right: 1;
+    -unity-slice-bottom: 1;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 45px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}

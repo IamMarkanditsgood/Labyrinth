@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/MenuToolKit/MenuMainButtons.uss?fileID=7433441132597879392&amp;guid=e8338312fb9ad874caf276198f396014&amp;type=3#MenuMainButtons" />
+    <ui:VisualElement style="height: 100%; width: 100%;">
+        <ui:VisualElement name="Container" style="align-items: center; justify-content: center; width: 100%; height: 100%;">
+            <ui:Button text="Start" display-tooltip-when-elided="true" name="ButtonStart" class="button" style="font-size: 80px; width: 500px; height: 250px;" />
+            <ui:Button text="Settings" display-tooltip-when-elided="true" name="ButtonSettings" class="button" style="width: 400px; height: 200px;" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="ButtonExit" class="button" style="font-size: 45px; width: 300px; height: 150px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

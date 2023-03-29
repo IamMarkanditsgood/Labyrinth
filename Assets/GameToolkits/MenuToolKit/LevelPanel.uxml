@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/MenuToolKit/LVButtons.uss?fileID=7433441132597879392&amp;guid=6c6b2bc567b03c3418de0007c4f71669&amp;type=3#LVButtons" />
+    <ui:VisualElement focusable="false" style="height: 100%; width: 100%; justify-content: center; align-items: center;">
+        <ui:VisualElement name="Container" style="height: 100%; width: 100%; left: auto; background-image: url(&apos;project://database/Assets/Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Alternative_Colors_4.png?fileID=-2895382960400046690&amp;guid=fc2c96f1421fbe54e82922ae89afef74&amp;type=3#Steampunk_UI_Alternative_Colors_4_7&apos;); justify-content: flex-start; align-items: flex-start; flex-direction: column; flex-basis: auto; flex-grow: 1;">
+            <ui:VisualElement name="Container" style="height: 10%; width: 100%; flex-direction: row; flex-wrap: wrap; align-items: flex-start; justify-content: space-between;">
+                <ui:Label text="Levels:" display-tooltip-when-elided="true" enable-rich-text="false" style="height: 100%; width: 60%; -unity-text-align: middle-center; color: rgb(0, 0, 0); font-size: 97px; -unity-font-style: bold;" />
+                <ui:Button display-tooltip-when-elided="true" enable-rich-text="false" name="Exit" style="height: 100%; width: 20%; background-image: url(&apos;project://database/Assets/Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_settings_icons.png?fileID=-2328997052170742779&amp;guid=e0018e123761e344bb79ca44447aa41e&amp;type=3#Steampunk_UI_settings_icons_18&apos;); background-color: rgba(88, 88, 88, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Container" style="height: 80%; width: 85%; left: 7%; flex-direction: column; flex-wrap: nowrap;">
+                <ui:VisualElement style="height: 22%; flex-direction: row-reverse; align-items: center; justify-content: space-between; flex-wrap: nowrap; flex-grow: 1; left: auto;">
+                    <ui:Button text="LV3" display-tooltip-when-elided="true" name="LV3" class="lvButton" />
+                    <ui:Button text="LV2" display-tooltip-when-elided="true" name="LV2" class="lvButton" />
+                    <ui:Button text="LV1" display-tooltip-when-elided="true" name="LV1" class="lvButton" />
+                </ui:VisualElement>
+                <ui:VisualElement style="height: 22%; left: auto; flex-direction: row; align-items: center; justify-content: space-between;">
+                    <ui:Button text="LV4" display-tooltip-when-elided="true" name="LV4" class="lvButton" />
+                    <ui:Button text="LV5" display-tooltip-when-elided="true" name="LV5" class="lvButton" />
+                    <ui:Button text="LV6" display-tooltip-when-elided="true" name="LV6" class="lvButton" />
+                </ui:VisualElement>
+                <ui:VisualElement style="height: 22%;" />
+                <ui:VisualElement style="height: 22%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
